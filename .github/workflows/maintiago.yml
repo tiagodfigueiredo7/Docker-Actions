@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo Hello, World Tiago !
+        run: echo Primeiro passo para build realizado !, teste 1 job completo
         
   deploy-devops:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
     needs: build  
     steps:
       - name: Run a one-line script
-        run: echo Deploy Dev
+        run: echo segundo teste realizado com sucesso , Deploy Devops Tiago, teste 2 job completo
         
   deploy-hmg:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
     needs: deploy-devops
     steps:
       - name: Run a one-line script
-        run: echo Deploy HMG
+        run: echo terceiro teste realizado com sucesso, homologação deploy ok, teste 3 job completo
 
   deploy-prd:
     runs-on: ubuntu-latest
@@ -37,5 +37,5 @@ jobs:
     needs: deploy-hmg  
     steps:
       - name: Run a one-line script
-        run: echo Deploy PRD
+        run: echo  quarto teste realizado com sucesso, producao  deploy ok, teste 4 job completo
         
