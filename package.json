@@ -1,0 +1,22 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests running...\"",
+    "build": "echo \"Build running...\"",
+    "deploy": "echo \"Deploying new build to cloud server...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabricaDeSinapse/GitHub-Actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabricaDeSinapse/GitHub-Actions/issues"
+  },
+  "homepage": "https://github.com/FabricaDeSinapse/GitHub-Actions#readme"
+}
