@@ -32,7 +32,7 @@ jobs:
   deploy-prd:
     runs-on: ubuntu-latest
     environment:
-      name: dev
+      name: prd
       url: 'https://www.linkedin.com/in/tiagodfigueiredo/'
     needs: deploy-hmg  
     steps:
