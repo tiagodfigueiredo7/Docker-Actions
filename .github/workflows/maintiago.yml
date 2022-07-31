@@ -17,7 +17,7 @@ jobs:
     needs: build  
     steps:
       - name: Run a one-line script
-        run: echo segundo teste realizado com sucesso , Deploy Devops Tiago, teste 2 job completo
+        run: echo segundo teste realizado com sucesso , Deploy Devops Tiago, teste 2 job completo!!!
         
   deploy-hmg:
     runs-on: ubuntu-latest
