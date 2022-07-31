@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: 'tiago.com'
+      url: 'https://www.linkedin.com/in/tiagodfigueiredo/'
     needs: build  
     steps:
       - name: Run a one-line script
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: hmg
-      url: 'tiago.com'
+      url: 'https://www.linkedin.com/in/tiagodfigueiredo/'
     needs: deploy-devops
     steps:
       - name: Run a one-line script
@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: 'tiago.com'
+      url: 'https://www.linkedin.com/in/tiagodfigueiredo/'
     needs: deploy-hmg  
     steps:
       - name: Run a one-line script
