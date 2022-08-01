@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo Primeiro passo
+        run: echo Primeiro passo para build realizado !, teste 1 job completo
         
   deploy-devops:
     runs-on: ubuntu-latest
