@@ -37,5 +37,5 @@ jobs:
     needs: deploy-hmg  
     steps:
       - name: Run a one-line script
-        run: echo  quarto teste realizado com sucesso, producao  deploy ok, teste 4 job completo
+        run: echo Teste!!!
         
